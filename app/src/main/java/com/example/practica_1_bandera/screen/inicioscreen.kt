@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun  InicioScreen(modifier: Modifier = Modifier){
 
-    Box(){
+    Box(modifier=modifier){
         Text(text = "Inicio Screen")
     }
 }
