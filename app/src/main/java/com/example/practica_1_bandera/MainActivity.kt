@@ -23,8 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Practica_1_banderaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // InicioScreen(modifier = Modifier.padding(innerPadding))
-                    Bandera(modifier = Modifier.padding(innerPadding))
+                    InicioScreen(modifier = Modifier.padding(innerPadding))
                     //OtraBandera(modifier = Modifier.padding(innerPadding))
 //                    Greeting(
 //                        name = "Android",
