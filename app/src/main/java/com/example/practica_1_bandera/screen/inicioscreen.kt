@@ -22,16 +22,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun  InicioScreen(modifier: Modifier = Modifier){
-
-    Box(modifier=modifier){
-        Text(text = "Inicio Screen")
-    }
-}
-
-@Composable
 //Bandera vertical que ocupa toda la pantalla con una columna
-fun Bandera(modifier: Modifier = Modifier){
+fun  InicioScreen(modifier: Modifier = Modifier){
     Column(modifier = Modifier.fillMaxSize()){
         Box(modifier = Modifier
             //.size(200.dp)
