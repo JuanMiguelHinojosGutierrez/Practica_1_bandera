@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.practica_1_bandera.screen.Bandera
 import com.example.practica_1_bandera.screen.InicioScreen
-import com.example.practica_1_bandera.screen.Bandera
+import com.example.practica_1_bandera.screen.OtraBandera
 import com.example.practica_1_bandera.ui.theme.Practica_1_banderaTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // InicioScreen(modifier = Modifier.padding(innerPadding))
                     Bandera(modifier = Modifier.padding(innerPadding))
+                    //OtraBandera(modifier = Modifier.padding(innerPadding))
 //                    Greeting(
 //                        name = "Android",
 //                        modifier = Modifier.padding(innerPadding)
