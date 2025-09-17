@@ -11,7 +11,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.practica_1_bandera.screen.Bandera
 import com.example.practica_1_bandera.screen.InicioScreen
 import com.example.practica_1_bandera.screen.OtraBandera
 import com.example.practica_1_bandera.ui.theme.Practica_1_banderaTheme
