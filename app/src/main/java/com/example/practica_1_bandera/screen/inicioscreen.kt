@@ -30,6 +30,7 @@ fun  InicioScreen(modifier: Modifier = Modifier){
 }
 
 @Composable
+//Bandera vertical que ocupa toda la pantalla con una columna
 fun Bandera(modifier: Modifier = Modifier){
     Column(modifier = Modifier.fillMaxSize()){
         Box(modifier = Modifier
@@ -60,6 +61,7 @@ fun Bandera(modifier: Modifier = Modifier){
 }
 
 @Composable
+//Bandera horizontal en una línea
 fun OtraBandera(modifier: Modifier = Modifier){
     Box(modifier = Modifier.fillMaxSize()){
         Row(modifier = Modifier
