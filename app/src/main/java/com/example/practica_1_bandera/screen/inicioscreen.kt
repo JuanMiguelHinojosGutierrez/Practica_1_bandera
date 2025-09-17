@@ -6,8 +6,10 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import com.example.practica_1_bandera.R
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -54,5 +56,37 @@ fun Bandera(modifier: Modifier = Modifier){
             .weight(1f)
             .fillMaxWidth()
             .background(color = Color.Red)){}
+    }
+}
+
+@Composable
+fun OtraBandera(modifier: Modifier = Modifier){
+    Box(modifier = Modifier.fillMaxSize()){
+        Row(modifier = Modifier
+            .align(Alignment.Center)){
+            Box(modifier = Modifier
+                .weight(1f)
+                //.fillMaxHeight()
+                .size(200.dp)
+                .background(color = Color.Green)){}
+            Box(modifier = Modifier
+                .weight(1f)
+                //.fillMaxHeight()
+                .size(200.dp)
+                .background(color = Color.White)){
+                Image(
+                    painter = painterResource(id = R.drawable.aguila_mexico),
+                    contentDescription = "escudo bandera mexicana",
+                    modifier = Modifier
+                        .align(Alignment.Center)
+                        .size(80.dp)
+                )
+            }
+            Box(modifier = Modifier
+                .weight(1f)
+                //.fillMaxHeight()
+                .size(200.dp)
+                .background(color = Color.Red)){}
+        }
     }
 }
